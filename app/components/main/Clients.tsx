@@ -8,7 +8,7 @@ type Props = {}
 
 const Clients = (props: Props) => {
   return (
-    <div className='h-full w-full py-8 text-black '>
+    <div className='h-fit w-full py-8 text-black '>
         <div className='flex justify-center gap-12 flex-col items-center w-full h-full lg:px-24 px-12'>
             <TitleReveal>
                 <h2 className='font-semibold text-green-500'>Our Clients</h2>
