@@ -44,7 +44,7 @@ const AboutSection = (props: Props) => {
         </div>
         <ImageReveal >
             <div className='w-full h-full   '>
-              <Image src={'/images/invest.svg'} alt='container' width={500} height={500}/>
+              <Image src={'/Images/invest.svg'} alt='container' width={500} height={500}/>
             </div>
         </ImageReveal>
 

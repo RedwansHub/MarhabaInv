@@ -43,7 +43,7 @@ const DivisionPage = (props: Props) => {
                 {id: 4, icon: <BsTools size={20} />, title: 'Building Materials'},
             ],
             images:  [
-                {id: 1, title: 'products', size: 600, src: '/images/generalProducts.png'},
+                {id: 1, title: 'products', size: 600, src: '/Images/generalProducts.png'},
              ],
             companies: [
                 // {id: 2, logo: '/Images/Logo/high-life.png'},

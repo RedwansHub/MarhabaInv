@@ -28,10 +28,10 @@ type Props = {
 const IntroSection = () => {
 
 const sectors = [
-  {size: 350, title: 'Real Estate', image: '/images/estate.png'},
-  {size: 350, title: 'General Trading', image: '/images/general.jpg'},
-  {size: 350, title: 'Agriculture', image: '/images/agriculture.jpg'},
-  {size: 400, title: 'Industrial', image: '/images/industry.png'},
+  {size: 350, title: 'Real Estate', image: '/Images/estate.png'},
+  {size: 350, title: 'General Trading', image: '/Images/general.jpg'},
+  {size: 350, title: 'Agriculture', image: '/Images/agriculture.jpg'},
+  {size: 400, title: 'Industrial', image: '/Images/industry.png'},
 ]
 const text = 'Marhaba Investment - a subsidiary of  Marhaba Group of companies that specializing in general trading, real estate, agriculture, and industries investment.'
   return (
