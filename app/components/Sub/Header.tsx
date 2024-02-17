@@ -74,7 +74,7 @@ const Header = () => {
           )}
         </div>
         {/* Mobile Menu */}
-        <div className={nav ? 'fixed left-0 top-0 w-[100%] h-fit   border-r border-r-gray-900 bg-gradient-to-r from-[#0a1b11]  to-[#48BB78]/40 ease-in-out duration-500'
+        <div className={nav ? 'fixed left-0 top-0 w-[100%] h-fit   border-r border-r-gray-900 bg-gradient-to-r from-[#1D1D1D]  to-[#48BB78]/40 ease-in-out duration-500'
                              : 'fixed left-[100%] ease-in-out duration-500'}>
           <div className='flex px-8 items-center p-2'>
             <div className='py-4'>
