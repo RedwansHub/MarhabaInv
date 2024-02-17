@@ -22,14 +22,12 @@ const Footer = (props: Props) => {
           
             <div>
             <ul className={` gap-4 flex  text-xs`}>
-          <li className='px-2 py-1 hover:border-b hover:text-green-400/50 hover:border-green-400/50 '>
-            <a href='/'>Home</a>
-          </li>
+         
           <li className='px-2 py-1 hover:border-b hover:text-green-400/50 hover:border-green-400/50'>
             <a href='/about'>About</a>
           </li>
           <li className='px-2 py-1 hover:border-b hover:text-green-400/50 hover:border-green-400/50'>
-            <a href='/divisions'>Investment</a>
+            <a href='/divisions'>Divisions</a>
           </li>
           <li className='px-2 py-1 hover:border-b hover:text-green-400/50 hover:border-green-400/50'>
             <a href='/services'>Services</a>

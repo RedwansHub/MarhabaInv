@@ -50,14 +50,12 @@ const Header = () => {
 
           </div>
         <ul style={{ color: `${textColor}` }} className={`${fontlight.className} hidden gap-4 sm:flex text-sm`}>
-          <li className='px-2 py-1 hover:border-b hover:text-green-400 hover:border-green-400 '>
-            <a href='/'>Home</a>
-          </li>
+         
           <li className='px-2 py-1 hover:border-b hover:text-green-400 hover:border-green-400'>
             <a href='/about'>About</a>
           </li>
           <li className='px-2 py-1 hover:border-b hover:text-green-400 hover:border-green-400'>
-            <a href='/divisions'>Investment</a>
+            <a href='/divisions'>Divisions</a>
           </li>
           <li className='px-2 py-1 hover:border-b hover:text-green-400 hover:border-green-400'>
             <a href='/services'>Services</a>
@@ -90,9 +88,8 @@ const Header = () => {
               </a>
           </div>
            <ul className='uppercase p-4'>
-              <li className='p-4 hover:text-green-400'><a href="/" >Home</a> </li>
               <li className='p-4 hover:text-green-400'><a href="/about" >About</a> </li>
-              <li className='p-4 hover:text-green-400'><a href="/divisions" >Investment</a> </li>
+              <li className='p-4 hover:text-green-400'><a href="/divisions" >Divisions</a> </li>
               <li className='p-4 hover:text-green-400'><a href="/services" >Services</a> </li>
               <li className='p-4 hover:text-green-400'><a href="/contact" >Contact</a> </li>
           </ul>
