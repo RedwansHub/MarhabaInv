@@ -1,6 +1,7 @@
 import React from 'react'
 import PopBox from '../components/Ui/PopBox'
 import Image from 'next/image'
+import Footer from '../components/Sub/Footer';
 
 type Props = {}
 
@@ -23,6 +24,7 @@ const ServicesPage = (props: Props) => {
           </div>
 
         </div>
+        <Footer />
     </div>
   )
 }
