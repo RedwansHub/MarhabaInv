@@ -58,7 +58,7 @@ const ContactSection = (props: Props) => {
                         <form action="https://getform.io/f/PdRZERdG" method="POST" 
                                 className="flex flex-col gap-4 " >
                             <TitleReveal width='100%'>
-                                <input style={{ outline: 'none' }} name='Name' type="text" placeholder="Name" className="border-2 w-full border-transparent duration-500 ease-in-out rounded-lg p-3  bg-white/10 hover:border-[#610F7F]  placeholder-white/50 font-semibold text-white active:outline-none text-sm" />
+                                <input style={{ outline: 'none' }} name='Full Name' type="text" placeholder="Name" className="border-2 w-full border-transparent duration-500 ease-in-out rounded-lg p-3  bg-white/10 hover:border-[#610F7F]  placeholder-white/50 font-semibold text-white active:outline-none text-sm" />
                             </TitleReveal>
                             <TitleReveal delay={0.5}>
                             <input style={{ outline: 'none' }} name='Email' type="text"  placeholder="Email Address" className=" w-full border-2 border-transparent duration-500 ease-in-out rounded-lg p-3  bg-white/10 hover:border-[#610F7F]  placeholder-white/50 font-semibold text-white active:outline-none text-sm" />
