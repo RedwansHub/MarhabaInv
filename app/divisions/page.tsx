@@ -118,7 +118,7 @@ const DivisionPage = (props: Props) => {
             </AnimateDown>
             <div className='lg:grid-cols-4 grid sm:grid-cols-2 gap-2 w-full '>
                     {Object.keys(InvestDivisions).map((division, idx) => (
-                        <RevealBox delay={0.2} idx={idx}>
+                        <RevealBox key={idx} delay={0.2} idx={idx}>
                             <Tab
                             key={division}
                             className={({ selected }) =>

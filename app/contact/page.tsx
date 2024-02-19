@@ -56,16 +56,16 @@ const ContactPage = (props: Props) => {
                     <div className='flex flex-col w-full items-end h-full justify-end  gap-2'>
                         <div className='w-full '>
                             {/* <FadeUp> */}
-                                <form action="https://getform.io/f/02a724d7-f99f-4586-bd01-d2e2c22a257c" method="POST" 
+                                <form action="https://getform.io/f/PdRZERdG" method="POST" 
                                         className="flex flex-col gap-4 w-full " >
                                     <TitleReveal width='100%'>
-                                        <input style={{ outline: 'none' }} name='name' type="text" placeholder="Name" className="border-2 w-full border-transparent duration-500 ease-in-out rounded-lg p-3  bg-white/10 hover:border-[#610F7F]  placeholder-white/50 font-semibold text-white active:outline-none text-sm" />
+                                        <input style={{ outline: 'none' }} name='Full Name' type="text" placeholder="Name" className="border-2 w-full border-transparent duration-500 ease-in-out rounded-lg p-3  bg-white/10 hover:border-[#610F7F]  placeholder-white/50 font-semibold text-white active:outline-none text-sm" />
                                     </TitleReveal>
                                     <TitleReveal delay={0.5}>
-                                    <input style={{ outline: 'none' }} name='email' type="text"  placeholder="Email Address" className=" w-full border-2 border-transparent duration-500 ease-in-out rounded-lg p-3  bg-white/10 hover:border-[#610F7F]  placeholder-white/50 font-semibold text-white active:outline-none text-sm" />
+                                    <input style={{ outline: 'none' }} name='Email' type="text"  placeholder="Email Address" className=" w-full border-2 border-transparent duration-500 ease-in-out rounded-lg p-3  bg-white/10 hover:border-[#610F7F]  placeholder-white/50 font-semibold text-white active:outline-none text-sm" />
                                     </TitleReveal>
                                     <TitleReveal delay={0.6}>
-                                    <textarea   placeholder="Message" name='message' className=" w-full grid col-span-2 border-2 border-transparent duration-500 ease-in-out rounded-lg p-3  bg-white/10 hover:border-[#610F7F]  placeholder-white/50 font-semibold text-white active:outline-none text-sm" />
+                                    <textarea   placeholder="Message" name='Message' className=" w-full grid col-span-2 border-2 border-transparent duration-500 ease-in-out rounded-lg p-3  bg-white/10 hover:border-[#610F7F]  placeholder-white/50 font-semibold text-white active:outline-none text-sm" />
                                     </TitleReveal>
 
                                     <Reveal>
