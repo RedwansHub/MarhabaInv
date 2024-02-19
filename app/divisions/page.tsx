@@ -112,7 +112,7 @@ const DivisionPage = (props: Props) => {
     <div className='w-full h-full text-2xl'>
        <div className='  h-full flex flex-col justify-center pt-24 items-center'>
        <Tab.Group>
-       <Tab.List className="flex flex-col gap-4 lg:w-[70%] w-full border-4 border-red-300 rounded-xl   p-4">
+       <Tab.List className="flex flex-col gap-4 lg:w-[70%] w-full  rounded-xl   p-4">
             <AnimateDown>
                 <h2 className={`${fontBold.className} text-center text-white`}>Investment Divisions</h2>
             </AnimateDown>

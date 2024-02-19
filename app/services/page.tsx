@@ -10,7 +10,7 @@ const ServicesPage = (props: Props) => {
   const content2 = "Marhaba Investment will continue to contribute to community development by providing the financial services needed. Such as financing Agriculture, Home financing, SMEs, and providing Support to those who have fruitful business ideas and have no access for a financial support"
   return (
     <div className='h-full w-full  text-4xl'>
-      <div className='grid place-items-center w-full h-full lg:px-48 md:px-32 px-8'>
+      <div className='grid place-items-center w-full h-full py-12 lg:px-48 md:px-32 px-8'>
           <div className='text-white w-full flex-col flex gap-6 pt-24'> 
               <h2>Our Services</h2>
             
