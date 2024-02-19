@@ -110,13 +110,13 @@ const DivisionPage = (props: Props) => {
     })
   return (
     <div className='w-full h-full text-2xl'>
-       <div className='  h-full flex flex-col justify-center items-center'>
+       <div className='  h-full flex flex-col justify-center pt-24 items-center'>
        <Tab.Group>
-       <Tab.List className="flex flex-col gap-4 lg:w-[70%] w-full  rounded-xl  pt-24 p-4">
+       <Tab.List className="flex flex-col gap-4 lg:w-[70%] w-full border-4 border-red-300 rounded-xl   p-4">
             <AnimateDown>
                 <h2 className={`${fontBold.className} text-center text-white`}>Investment Divisions</h2>
             </AnimateDown>
-            <div className='lg:grid-cols-4 grid sm:grid-cols-2 gap-2 w-full '>
+            <div className='lg:grid-cols-4 grid sm:grid-cols-2 grid-cols-1  gap-2 w-full '>
                     {Object.keys(InvestDivisions).map((division, idx) => (
                         <RevealBox key={idx} delay={0.2} idx={idx}>
                             <Tab
